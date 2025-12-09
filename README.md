@@ -23,7 +23,7 @@ As the Data Analyst, your task is to analyze user behavior patterns to:
 2. Which user segments (age, gender, usage levels) show the highest risk of stress or low mood?
 3. At what screen-time threshold do we see significant declines in mental well-being?
 4. What patterns predict poor sleep or high stress?
-5.What product recommendations can reduce mental health risks for each segment?
+5. What product recommendations can reduce mental health risks for each segment?
 
 <br>
 
