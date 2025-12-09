@@ -35,7 +35,7 @@ As the Data Analyst, your task is to analyze user behavior patterns to:
 <br>
 
 ## ⭐ Dataset  
-Source: Social Media & Mental Health Balance dataset (Kaggle)
+Source: [Mental Health & Social Media Balance Dataset](https://www.kaggle.com/datasets/prince7489/mental-health-and-social-media-balance-dataset) from Kaggle
 
 <br>
 
