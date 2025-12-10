@@ -1,4 +1,4 @@
-# ✨ Digital Wellness Behavior Analysis for MindEase Product Team  
+# ✨ Digital Wellness App Analysis for MindEase Product Team
 
 Analysis on Screen-Time, Sleep, and Mental Well-Being to Guide Product Decisions  
 
