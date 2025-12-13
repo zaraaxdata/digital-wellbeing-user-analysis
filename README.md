@@ -26,6 +26,33 @@ As the data analyst, the goals are to:
 
 <br>
 
+## 🔑 Key Findings
+
+1. Screen-time is the strongest driver of stress. Levels rise sharply after 6.5 hours/day.
+2. Sleep quality is tightly linked to stress. Poor sleep (<5) consistently predicts high stress.
+3. Exercise improves well-being. Users exercising ≥3 times/week show higher happiness and lower stress.
+4. Users with 0 disconnect days show higher stress and lower sleep.
+5. High-risk segments:  
+* Age 16–24: highest screen-time and stress
+* Users with >7 hrs/day screen-time
+* Low-activity users (<2 workouts/week)
+
+<br>
+
+## 🧭 Recommendations  
+
+1. Screen-time coaching: Trigger interventions when usage exceeds 6.5 hrs/day.
+2.  Sleep routines: Provide wind-down tips and reduce night notifications for poor sleepers.
+3.  Digital detox nudges: Encourage breaks for users with 0 disconnect days.
+4.  Promote micro-activity nudges for low-exercise users.
+5. Activity boosters: Micro-activity reminders for users exercising <2x/week.
+6. Age-based personalization:
+* 16–24: strict screen-time boundaries
+* 25–34: stress management
+* 35+: sleep optimization
+
+<br>
+
 ## ⚙️ Dataset  
 Source: Kaggle - [Mental Health & Social Media Balance Dataset](https://www.kaggle.com/datasets/prince7489/mental-health-and-social-media-balance-dataset) 
 Rows: 500 users  
@@ -90,33 +117,6 @@ jupyter notebook
 5. **Answers to Business Questions**
    Converted patterns into actionable product recommendations.
    
-<br>
-
-## 🔑 Key Findings
-
-1. Screen-time is the strongest driver of stress. Levels rise sharply after 6.5 hours/day.
-2. Sleep quality is tightly linked to stress. Poor sleep (<5) consistently predicts high stress.
-3. Exercise improves well-being. Users exercising ≥3 times/week show higher happiness and lower stress.
-4. Users with 0 disconnect days show higher stress and lower sleep.
-5. High-risk segments:  
-* Age 16–24: highest screen-time and stress
-* Users with >7 hrs/day screen-time
-* Low-activity users (<2 workouts/week)
-
-<br>
-
-## 🧭 Recommendations  
-
-1. Screen-time coaching: Trigger interventions when usage exceeds 6.5 hrs/day.
-2.  Sleep routines: Provide wind-down tips and reduce night notifications for poor sleepers.
-3.  Digital detox nudges: Encourage breaks for users with 0 disconnect days.
-4.  Promote micro-activity nudges for low-exercise users.
-5. Activity boosters: Micro-activity reminders for users exercising <2x/week.
-6. Age-based personalization:
-* 16–24: strict screen-time boundaries
-* 25–34: stress management
-* 35+: sleep optimization
-
 <br>
 
 ## 🔖 Future Improvements
