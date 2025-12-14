@@ -2,13 +2,18 @@
 
 Mental Health & Social Media Balance Dataset | Python, Pandas, EDA 
 
+<br>
+
+## 📘 Project Overview
+Performed **user behavior analysis** to *identify mental well-being patterns, high-risk user segments, and behavioral thresholds*, and translated them into **actionable recommendations** for a digital wellness product.  
+
 ![mindfulness-com-68Z1YR-A5b4-unsplash](https://github.com/user-attachments/assets/03f7e656-9847-41b4-8a21-139e3da4c692)
 
-## ⭐ Business Problem 
+## 🎯 Business Problem 
 MindEase is developing a Digital Balance Coach to provide personalized guidance on screen-time management, sleep hygiene, and digital detox habits.  
 
 The product team lacks clarity on:  
-* Which user groups are at highest mental health risk
+* Which user groups are at the highest mental health risk
 * Which behaviors most strongly influence stress, sleep, and well-being
 * What thresholds should trigger personalized recommendations  
 
@@ -28,34 +33,39 @@ As the data analyst, the goals are to:
 
 ## 🔑 Key Findings
 
-1. Screen-time is the strongest driver of stress. Levels rise sharply after 6.5 hours/day.
-2. Sleep quality is tightly linked to stress. Poor sleep (<5) consistently predicts high stress.
-3. Exercise improves well-being. Users exercising ≥3 times/week show higher happiness and lower stress.
-4. Users with 0 disconnect days show higher stress and lower sleep.
-5. High-risk segments:  
-* Age 16–24: highest screen-time and stress
-* Users with >7 hrs/day screen-time
-* Low-activity users (<2 workouts/week)
+* Screen-time is the strongest driver of stress. Levels rise sharply after 6.5 hours/day.
+* Sleep quality is tightly linked to stress. Poor sleep (<5) consistently predicts high stress.
+* Exercise improves well-being. Users exercising ≥3 times/week show higher happiness and lower stress.
+* Users with 0 disconnect days show higher stress and lower sleep.
+* High-risk segments:  
+    * Age 16–24: highest screen-time and stress
+    * Users with >7 hrs/day screen-time
+    * Low-activity users (<2 workouts/week)
 
 <br>
 
-## 🧭 Recommendations  
+## 📈 Business Recommendations
 
-1. Screen-time coaching: Trigger interventions when usage exceeds 6.5 hrs/day.
-2.  Sleep routines: Provide wind-down tips and reduce night notifications for poor sleepers.
-3.  Digital detox nudges: Encourage breaks for users with 0 disconnect days.
-4.  Promote micro-activity nudges for low-exercise users.
-5. Activity boosters: Micro-activity reminders for users exercising <2x/week.
-6. Age-based personalization:
-* 16–24: strict screen-time boundaries
-* 25–34: stress management
-* 35+: sleep optimization
+* Screen-time coaching: Trigger interventions when usage exceeds 6.5 hrs/day.
+* Sleep routines: Provide wind-down tips and reduce night notifications for poor sleepers.
+* Digital detox nudges: Encourage breaks for users with 0 disconnect days.
+* Promote micro-activity nudges for low-exercise users.
+* Activity boosters: Micro-activity reminders for users exercising <2x/week.
+* Age-based personalization:  
+    * 16–24: strict screen-time boundaries
+    * 25–34: stress management
+    * 35+: sleep optimization
+
+<br>
+
+# 🧰 Technical Details
+This section outlines the tools, techniques, and step-by-step analysis workflow used to generate the project insights. 
 
 <br>
 
 ## ⚙️ Dataset  
-Source: Kaggle - [Mental Health & Social Media Balance Dataset](https://www.kaggle.com/datasets/prince7489/mental-health-and-social-media-balance-dataset) 
-Rows: 500 users  
+Source: Kaggle - [Mental Health & Social Media Balance Dataset](https://www.kaggle.com/datasets/prince7489/mental-health-and-social-media-balance-dataset)   
+Scope : 500 users  
 Key columns include:  
 * Daily Screen Time (hrs)
 * Sleep Quality (1–10)
@@ -65,11 +75,10 @@ Key columns include:
 * Happiness Index (1–10)
 * Age, Gender, Platform
 
-*This dataset simulates real-world digital behavior patterns for wellness products.*
 
 <br>
 
-## Tools & Techniques  
+## 🧰 Tools & Techniques  
 
 1. Python 3.10
 2. Pandas, NumPy
@@ -79,7 +88,7 @@ Key columns include:
 
 <br>
 
-## ⭐ How to run the project  
+##  ▶️ How to run the project  
 1. Clone the Repository
 ```
 git clone https://github.com/zaraaxdata/digital-wellness-app-analysis.git
@@ -98,7 +107,7 @@ jupyter notebook
 
 <br>
 
-## 🧪 Analysis Steps  
+## 🔄 Analysis Steps  
 
 1. **Data Inspection & Cleaning**  
   Verified data types, missing values, duplicates.
@@ -125,12 +134,6 @@ jupyter notebook
 * Build Recommendation engine
 
 <br>
-
-## ✅ Conclusion  
-
-This analysis identifies the behaviors and user groups most at risk of poor mental well-being and provides data-backed thresholds for personalized digital wellness interventions.   
-These insights directly support the development of the Digital Balance Coach and help MindEase prioritize high-impact features.
-
 <br>
 
 *If you find this project helpful, don’t forget to give a ⭐.*
